@@ -1,0 +1,44 @@
+/* Tab Navigation */
+.nav-tabs {
+    margin: 0;
+    padding: 0;
+    border: 0;    
+}
+.nav-tabs > li > a {
+    background: #FFF;
+    border-radius: 0;
+    box-shadow: inset 0 -8px 7px -9px rgba(0,0,0,.4),-2px -2px 5px -2px rgba(0,0,0,.4);
+
+    margin-right: 2px;
+    line-height: 1.42857;
+    border: 1px solid transparent;
+
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+
+    color: #337AB7;
+    text-decoration: none;    
+}
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover {
+    background: #F5F5F5;
+    box-shadow: inset 0 0 0 0 rgba(0,0,0,.4),-2px -3px 5px -2px rgba(0,0,0,.4);    
+}
+
+.nav-tabs > li {
+    float: left;
+    margin-bottom: -1px;
+
+    text-decoration: none;
+    background-color: #EEE;
+}
+
+/* Tab Content */
+.tab-pane {
+    background: #F5F5F5;
+    box-shadow: 0 0 1px rgba(0,0,0,.4);
+    border-radius: 0;
+/*    text-align: center;*/
+    padding: 10px;
+}
